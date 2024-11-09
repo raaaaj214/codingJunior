@@ -11,6 +11,7 @@ import Media from "./components/Media";
 import Mentors from "./components/Mentors";
 import Journey from "./components/Journey";
 import Testimonials from "./components/Testimonials";
+import { Helmet } from "react-helmet";
 function App() {
   return (
     <main className="w-full overflow-x-hidden h-auto">
